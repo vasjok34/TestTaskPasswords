@@ -6,7 +6,7 @@ namespace TestTaskPasswords.Providers;
 public class PasswordModelProvider : IPasswordModelProvider
 {
     private const string NumbersRegexPattern = @"\D+";
-    private const char ColumnChar = ':';
+    private const char ColonChar = ':';
 
     public IEnumerable<PasswordModel> GetAllPasswordModelsFromFile(string filePath)
     {
@@ -28,7 +28,7 @@ public class PasswordModelProvider : IPasswordModelProvider
         var minQuantity = quantities[0];
         var maxQuantity = quantities[1];
 
-        var possiblePassword = lineOfFile.Substring(lineOfFile.LastIndexOf(ColumnChar) + 1).Replace(" ", string.Empty);
+        var possiblePassword = lineOfFile.Substring(lineOfFile.LastIndexOf(ColonChar) + 1).Replace(" ", string.Empty);
 
         return new PasswordModel(possiblePassword, requiredChar, minQuantity, maxQuantity);
     }
