@@ -4,11 +4,7 @@
     <projectFile>TestTaskPasswords.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8524755a-9cbf-44ad-8917-7a6df32c4bca" name="Changes" comment="Refactoring">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestTaskPasswords/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestTaskPasswords/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Providers/PasswordModelProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Providers/PasswordModelProvider.cs" afterDir="false" />
-    </list>
+    <list default="true" id="8524755a-9cbf-44ad-8917-7a6df32c4bca" name="Changes" comment="Fixed .gitignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +14,8 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2d65365881ce11f9bb776269d28fbe1dc6d0882bbe8615aafd4fa5a3d7ebc48e/Count.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7a1ad32abaee44480b66c2c1fcee9628cca92a4cd272eced5781564201180/Number.Parsing.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f3b9684f72bc2cc435eb694f7cc86eca8c240d2d1cefa1e8697a61f1f2f27f/SafeFileHandle.Windows.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/user/RiderProjects/TestTaskPasswords/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/user/RiderProjects/TestTaskPasswords/Services/PasswordValidationService.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -69,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681896632105</updated>
       <workItem from="1681896636592" duration="2228000" />
-      <workItem from="1681898915440" duration="7883000" />
+      <workItem from="1681898915440" duration="8201000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1681897659846</created>
@@ -92,7 +90,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681906858979</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Code clean-up">
+      <created>1681907318180</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681907318180</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed .gitignore">
+      <created>1681907541669</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681907541669</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +128,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Implemented validationService" />
     <MESSAGE value="Refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
+    <MESSAGE value="Code clean-up" />
+    <MESSAGE value="Fixed .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed .gitignore" />
   </component>
 </project>
