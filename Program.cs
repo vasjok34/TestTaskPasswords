@@ -12,15 +12,22 @@ Console.WriteLine("Completed");
 
 void GetValidPasswordsCount(IPasswordValidationService passwordValidationService)
 {
-    Console.WriteLine("Please write txt file path:");
+    Console.WriteLine("Please write valid txt file path:");
 
     var filePath = Console.ReadLine();
 
+    if (!File.Exists(filePath))
+    {
+        Console.WriteLine($"File is not exists in path: {filePath}");
+
+        GetValidPasswordsCount(passwordValidationService);
+    }
+
     Console.WriteLine(
         $"Count of valid passwords in file = {passwordValidationService.GetValidPasswordsCount(filePath)}");
-    
+
     Console.WriteLine($"Another file? (Y - YES)");
-    
+
     var input = char.Parse(Console.ReadLine()?.ToLower() ?? string.Empty);
 
     if (input == AgreedRestartChar)

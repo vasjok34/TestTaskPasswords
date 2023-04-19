@@ -4,15 +4,10 @@
     <projectFile>TestTaskPasswords.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8524755a-9cbf-44ad-8917-7a6df32c4bca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Providers/IPasswordModelProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Providers/PasswordModelProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/IPasswordValidationService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/PasswordValidationService.cs" afterDir="false" />
+    <list default="true" id="8524755a-9cbf-44ad-8917-7a6df32c4bca" name="Changes" comment="Refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestTaskPasswords/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestTaskPasswords/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extensions/PasswordExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions/PasswordExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/PasswordModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/PasswordModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Providers/PasswordModelProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Providers/PasswordModelProvider.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +35,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "XThreadsFramesViewSplitterKey": "0.33898306",
+    "XThreadsFramesViewSplitterKey": "0.24",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -74,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681896632105</updated>
       <workItem from="1681896636592" duration="2228000" />
-      <workItem from="1681898915440" duration="7106000" />
+      <workItem from="1681898915440" duration="7883000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1681897659846</created>
@@ -83,7 +78,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681897659846</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implemented validationService">
+      <created>1681906641023</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681906641023</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Refactoring">
+      <created>1681906858979</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681906858979</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +114,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Implemented validationService" />
+    <MESSAGE value="Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
   </component>
 </project>

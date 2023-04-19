@@ -10,11 +10,6 @@ public class PasswordModelProvider : IPasswordModelProvider
 
     public IEnumerable<PasswordModel> GetAllPasswordModelsFromFile(string filePath)
     {
-        if (!File.Exists(filePath))
-        {
-            throw new FileNotFoundException();
-        }
-
         var lines = File.ReadAllLines(filePath);
 
         return lines.Select(BuildPasswordModel).ToList();
