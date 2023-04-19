@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8524755a-9cbf-44ad-8917-7a6df32c4bca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Extensions/PasswordExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/PasswordModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestTaskPasswords.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestTaskPasswords.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Providers/IPasswordModelProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Providers/PasswordModelProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/IPasswordValidationService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/PasswordValidationService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestTaskPasswords/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestTaskPasswords/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extensions/PasswordExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions/PasswordExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/PasswordModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/PasswordModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2d65365881ce11f9bb776269d28fbe1dc6d0882bbe8615aafd4fa5a3d7ebc48e/Count.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7a1ad32abaee44480b66c2c1fcee9628cca92a4cd272eced5781564201180/Number.Parsing.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f3b9684f72bc2cc435eb694f7cc86eca8c240d2d1cefa1e8697a61f1f2f27f/SafeFileHandle.Windows.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -36,6 +40,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "XThreadsFramesViewSplitterKey": "0.33898306",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -67,8 +73,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681896632105</updated>
-      <workItem from="1681896636592" duration="756000" />
+      <workItem from="1681896636592" duration="2228000" />
+      <workItem from="1681898915440" duration="7106000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1681897659846</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681897659846</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,5 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>

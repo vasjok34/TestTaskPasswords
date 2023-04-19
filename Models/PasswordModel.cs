@@ -10,8 +10,8 @@ public class PasswordModel
         MaxOccurrences = maxOccurrences;
     }
 
-    public string Password { get; set; }
-    public char RequiredSymbol { get; set; }
-    public int MinOccurrences { get; set; }
-    public int MaxOccurrences { get; set; }
+    public string Password { get; }
+    public char RequiredSymbol { get; }
+    public int MinOccurrences { get; }
+    public int MaxOccurrences { get; }
 }

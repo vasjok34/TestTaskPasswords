@@ -6,7 +6,7 @@ public static class PasswordExtensions
 {
     public static bool IsPasswordValid(this PasswordModel passwordModel)
     {
-        int occurrences = passwordModel.Password.Count(x => x == passwordModel.RequiredSymbol);
+        var occurrences = passwordModel.Password.Count(x => x == passwordModel.RequiredSymbol);
 
         return occurrences >= passwordModel.MinOccurrences && occurrences <= passwordModel.MaxOccurrences;
     }
