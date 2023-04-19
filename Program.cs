@@ -26,7 +26,7 @@ void GetValidPasswordsCount(IPasswordValidationService passwordValidationService
     Console.WriteLine(
         $"Count of valid passwords in file = {passwordValidationService.GetValidPasswordsCount(filePath)}");
 
-    Console.WriteLine($"Another file? (Y - YES)");
+    Console.WriteLine("Another file? (Y - YES)");
 
     var input = char.Parse(Console.ReadLine()?.ToLower() ?? string.Empty);
 
